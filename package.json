@@ -1,0 +1,20 @@
+{
+  "name": "svg2comp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js -s test -o test/icons.tsx --importReact=false"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^3.17.4",
+    "svg-to-jsx": "^1.0.2",
+    "yargs": "^15.4.1"
+  }
+}
